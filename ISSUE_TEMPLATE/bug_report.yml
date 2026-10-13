@@ -1,0 +1,25 @@
+name: Bug report
+description: Something in a CadCraft app did the wrong thing
+labels: [bug]
+body:
+  - type: dropdown
+    id: app
+    attributes: {label: App, options: [CadCraft, BimCraft, ModelCraft, MarkupCraft, TakeoffCraft, CivilCraft, DetailCraft, PartCraft, CadCraft Studio]}
+    validations: {required: true}
+  - type: dropdown
+    id: platform
+    attributes: {label: Platform, options: [Browser, Windows, Linux]}
+    validations: {required: true}
+  - type: input
+    id: version
+    attributes: {label: Version and system, placeholder: "0.4, Windows 11 x64, Chrome 141"}
+  - type: textarea
+    id: what
+    attributes: {label: What happened, description: What you did, what you expected, and what happened instead.}
+    validations: {required: true}
+  - type: textarea
+    id: steps
+    attributes: {label: Steps or commands to reproduce, description: "The command sequence helps most, e.g. L, 0,0, 100,0, then TR."}
+  - type: textarea
+    id: files
+    attributes: {label: Files, description: Attach a small file that shows the problem, if you can share one.}

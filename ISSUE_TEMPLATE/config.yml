@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Suggest what to rebuild next
+    url: https://getcadcraft.com/suggest
+    about: Vote on and suggest the next app or tool.
+  - name: Get build news
+    url: https://getcadcraft.com/updates
+    about: An email when new builds are out.
+  - name: Support
+    url: https://getcadcraft.com/support
+    about: Questions about licenses, accounts or anything else.

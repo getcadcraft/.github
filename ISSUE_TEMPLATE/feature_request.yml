@@ -1,0 +1,15 @@
+name: Feature request
+description: A command, tool or workflow you need
+labels: [enhancement]
+body:
+  - type: dropdown
+    id: app
+    attributes: {label: App, options: [CadCraft, BimCraft, ModelCraft, MarkupCraft, TakeoffCraft, CivilCraft, DetailCraft, PartCraft, CadCraft Studio, A new app]}
+    validations: {required: true}
+  - type: textarea
+    id: need
+    attributes: {label: What do you need to do, description: Describe the task in your own workflow terms.}
+    validations: {required: true}
+  - type: textarea
+    id: today
+    attributes: {label: How do you do it today, description: The tool and commands you use now.}
