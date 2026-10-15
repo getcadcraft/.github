@@ -1,4 +1,4 @@
-# CadCraft
+# CadCraft Studio
 
 Draft, model and build — with tools you already know.
 
