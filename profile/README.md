@@ -10,7 +10,7 @@ Draft, model and build — with tools you already know.
 
 **[CadCraft Studio](https://github.com/getcadcraft/studio)** is the center of CadCraft: all eight apps in one install, with one home screen to open them from, the same files and one license. It is not another app; it is the eight apps, together.
 
-**[Download CadCraft Studio 0.6](https://getcadcraft.com/download#studio)** for Windows, Linux and Android (the macOS build follows; 0.5 stays available for Mac). Studio is the one desktop download; each app also runs in the browser.
+**[Download CadCraft Studio 0.6](https://getcadcraft.com/download#studio)** for Windows, macOS, Linux and Android. Studio is the one desktop download; each app also runs in the browser.
 
 - **One home screen.** Open any app, your recent drawings and the tutorials from one place.
 - **Work together, live.** Host a drawing from Studio and edit it with others on the same network (invite links over the internet open soon).
